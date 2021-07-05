@@ -1,0 +1,25 @@
+.MasterPage {
+  margin: 0;
+  display: grid;
+  background-image: url("images/image31.jpg");
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto;
+  grid-template-areas: "head head head" "bread . ." "master . ." "styles . .";
+}
+.MasterPage .masterInfo {
+  grid-area: master;
+  margin-left: 97px;
+}
+.MasterPage .bread {
+  grid-area: bread;
+  margin-left: 65px;
+}
+.MasterPage .header {
+  grid-area: head;
+}
+.MasterPage .MasterStyles {
+  margin-left: 97px;
+  grid-area: styles;
+}
+
+/*# sourceMappingURL=MasterPaje.module.css.map */

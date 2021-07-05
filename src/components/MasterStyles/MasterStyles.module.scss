@@ -1,0 +1,41 @@
+@import "../../styles/mixins";
+
+.MasterStyles{
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  margin-top: 20px;
+
+
+
+  .firstStyle{
+    grid-column: 1;
+    width: 150px;
+    @include master-style;
+  }
+  .secondStyle{
+    margin-left: 0;
+    width: 108px;
+    grid-column: 2;
+    @include master-style;
+  }
+
+  .thirdStyle{
+    width: 111px;
+    grid-column: 3;
+    @include master-style;
+  }
+
+  .fourthStyle{
+    width: 138px;
+    grid-column: 4;
+    @include master-style;
+  }
+
+  .fifthStyle{
+    width: 100px;
+    grid-column: 5;
+    @include master-style;
+
+  }
+}
+

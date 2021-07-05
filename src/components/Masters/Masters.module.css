@@ -1,0 +1,15 @@
+.masters {
+  display: grid;
+  height: 2571px;
+  grid-auto-flow: dense;
+  grid-template-areas: "item" "item";
+  /*background-image: url('./image37.jpg');*/
+}
+
+.item {
+  grid-area: item;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=Masters.module.css.map */

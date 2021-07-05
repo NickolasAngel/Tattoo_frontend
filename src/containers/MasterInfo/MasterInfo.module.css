@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+.MasterInfo {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  margin-top: 10px;
+  grid-column-gap: 3px;
+  grid-template-areas: "avatar nameRating" "avatar description";
+}
+.MasterInfo .avatar {
+  grid-area: avatar;
+}
+.MasterInfo .avatar img {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
+.MasterInfo .nameRating {
+  grid-area: nameRating;
+  color: white;
+  height: 70px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "name rating button" "experience . button";
+}
+.MasterInfo .nameRating .name {
+  font-family: PT-Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  grid-area: name;
+  font-size: 32px;
+}
+.MasterInfo .nameRating .rating {
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 10px;
+  grid-area: rating;
+  font-family: PT-Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+.MasterInfo .nameRating .rating .star {
+  margin-right: 5px;
+  transform: translate(0, 2px);
+}
+.MasterInfo .nameRating .enlist {
+  grid-area: button;
+  margin-left: 220px;
+}
+.MasterInfo .nameRating .enlist .enlistButton {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #CD2935;
+  color: #FFFFFF;
+  width: 255px;
+  height: 60px;
+  font-size: 22px;
+  border: 0;
+  border-radius: 20px;
+}
+.MasterInfo .nameRating .experience {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  font-size: 20px;
+  width: 150px;
+  padding-right: 0;
+  display: inline-block;
+  grid-area: experience;
+}
+.MasterInfo .description {
+  grid-area: description;
+  font-family: PT-Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 70px;
+  width: 635px;
+  height: 253px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=MasterInfo.module.css.map */

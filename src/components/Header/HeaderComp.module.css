@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+/*.header{*/
+/*    opacity: 50%;*/
+/*}*/
+.header_wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr 1fr;
+  grid-template-areas: ". logo main masters serivices singin .";
+}
+
+a:-webkit-any-link {
+  outline: none;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 33px;
+  grid-area: logo;
+  color: #CD2935;
+  opacity: 100%;
+}
+
+.main {
+  font-size: 22px;
+  line-height: 33px;
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  grid-area: main;
+  color: #FFFFFF;
+}
+
+.masters {
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  grid-area: masters;
+  color: #FFFFFF;
+}
+
+.services {
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  grid-area: serivices;
+  color: #FFFFFF;
+}
+
+.singIn {
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+  grid-area: singin;
+  color: #FFFFFF;
+  padding-left: 20px;
+}
+.singIn .loopa {
+  display: inline-block;
+  margin-right: 10px;
+  padding-top: 5px;
+  transform: translate(14px, 0);
+}
+.singIn .singButton {
+  display: inline-block;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 20px;
+  padding: 0 12px 0 12px;
+  transform: translate(22px, -7px);
+}
+.singIn .singButton p {
+  margin: 0 0 0 0;
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=HeaderComp.module.css.map */

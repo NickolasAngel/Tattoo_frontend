@@ -1,0 +1,36 @@
+
+.MasterPage {
+  margin: 0;
+  display: grid;
+  background-image: url("images/image31.jpg");
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto;
+
+  grid-template-areas:
+            "head head head"
+            "bread . ."
+            "master . ."
+            "styles . .";
+
+
+  .masterInfo {
+    grid-area: master;
+    margin-left: 97px;
+  }
+  .bread{
+    grid-area: bread;
+    margin-left: 65px;
+  }
+  .header {
+    grid-area: head;
+  }
+  .MasterStyles{
+    margin-left: 97px;
+    grid-area: styles;
+  }
+}
+
+
+
+
+

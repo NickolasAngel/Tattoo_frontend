@@ -1,0 +1,55 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+@mixin filter-block {
+  display: block;
+  height: 47px;
+  padding-left: 10px;
+  background-color: $main-color;
+  color: white;
+  border-radius: 10px;
+  font-size: 22px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+@mixin master-style {
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 15px;
+  background-color: $grey-color;
+  font-size: 19px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+@mixin photo-style {
+  display: inline-block;
+  margin-right: 20px;
+  width: 142px;
+}
+
+@mixin font_filter {
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+@mixin font_info_1 {
+  font-family: PT-Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+@mixin font_info_2 {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+}

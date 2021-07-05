@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+.MasterStyles {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  margin-top: 20px;
+}
+.MasterStyles .firstStyle {
+  grid-column: 1;
+  width: 150px;
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 15px;
+  background-color: #A5A5A5;
+  font-size: 19px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+}
+.MasterStyles .secondStyle {
+  margin-left: 0;
+  width: 108px;
+  grid-column: 2;
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 15px;
+  background-color: #A5A5A5;
+  font-size: 19px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+}
+.MasterStyles .thirdStyle {
+  width: 111px;
+  grid-column: 3;
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 15px;
+  background-color: #A5A5A5;
+  font-size: 19px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+}
+.MasterStyles .fourthStyle {
+  width: 138px;
+  grid-column: 4;
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 15px;
+  background-color: #A5A5A5;
+  font-size: 19px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+}
+.MasterStyles .fifthStyle {
+  width: 100px;
+  grid-column: 5;
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 15px;
+  background-color: #A5A5A5;
+  font-size: 19px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=MasterStyles.module.css.map */

@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Spectral&display=swap");
+.masterBlock {
+  width: 1110px;
+  height: 290px;
+  background-color: #262828;
+  border-radius: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 35px;
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+  grid-template-rows: repeat(5, 20%);
+  grid-column-gap: 10px;
+}
+
+.avatar_block {
+  width: 240px;
+  height: 258px;
+  grid-area: avatar;
+  align-self: stretch;
+  grid-column: 1;
+  grid-row: 1/-1;
+  justify-self: center;
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 13px;
+}
+
+.avatar {
+  width: 240px;
+  height: 258px;
+  border-radius: 120px;
+  grid-column-gap: 15px;
+  align-self: stretch;
+}
+
+.blockInfo {
+  width: 810px;
+  height: 250px;
+  grid-template-rows: 1fr 1fr 1fr 2.5fr;
+  display: grid;
+  grid-area: info;
+  grid-row: 1/4;
+  grid-column: 2;
+  grid-row-gap: 15px;
+}
+
+.nameTown {
+  margin-top: 20px;
+  grid-row: 1;
+}
+.nameTown .name {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  display: inline-block;
+  float: left;
+  color: #FFFFFF;
+}
+.nameTown .town {
+  display: inline-block;
+  float: right;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.nameTown .town .townPicker {
+  padding-right: 8px;
+}
+
+.expPrice {
+  grid-row: 2;
+  font-family: PT-Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+.expPrice .experience {
+  color: #FFFFFF;
+  font-size: 18px;
+  padding-right: 26px;
+  display: inline-block;
+}
+.expPrice .price {
+  color: #FFFFFF;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.styles {
+  grid-row: 3;
+}
+.styles p {
+  text-align: center;
+  margin: 6px 0 0 0;
+  white-space: nowrap;
+  font-size: 18px;
+}
+
+.firstStyle {
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 15px;
+  background-color: #A5A5A5;
+  font-size: 19px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+  width: 150px;
+}
+
+.secondStyle {
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 15px;
+  background-color: #A5A5A5;
+  font-size: 19px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+  width: 108px;
+}
+
+.thirdStyle {
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 15px;
+  background-color: #A5A5A5;
+  font-size: 19px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+  width: 111px;
+}
+
+.fourthStyle {
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 15px;
+  background-color: #A5A5A5;
+  font-size: 19px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 138px;
+}
+
+.emptyStyle {
+  display: inline-block;
+  white-space: nowrap;
+  margin-right: 15px;
+  background-color: #A5A5A5;
+  font-size: 19px;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+  width: 59px;
+}
+
+.portfolio {
+  grid-row: 4;
+}
+.portfolio .firstPic {
+  display: inline-block;
+  margin-right: 20px;
+  width: 142px;
+}
+.portfolio .secondPic {
+  display: inline-block;
+  margin-right: 20px;
+  width: 142px;
+}
+.portfolio .thirdPic {
+  display: inline-block;
+  margin-right: 20px;
+  width: 142px;
+}
+.portfolio .fourthPic {
+  display: inline-block;
+  margin-right: 20px;
+  width: 142px;
+}
+.portfolio .fifthPic {
+  display: inline-block;
+  margin-right: 20px;
+  width: 142px;
+}
+
+/*# sourceMappingURL=ItemMaster.module.css.map */

@@ -1,0 +1,36 @@
+@import "../../styles/mixins";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+.breadcrumb{
+  list-style: none;
+  margin-top: 0;
+
+  @include font_info_2;
+
+
+  li{
+    display: inline;
+
+
+
+
+    &:last-child a:after{
+      content: none;
+    }
+
+    a{
+      text-decoration: none;
+      color: #FFFFFF;
+
+
+      &:after{
+        padding-left: 10px;
+
+        content: "/";
+      }
+
+
+    }
+  }
+}
+

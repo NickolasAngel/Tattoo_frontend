@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+.filter_select {
+  border: none;
+  width: 125px;
+  display: block;
+  height: 47px;
+  padding-left: 10px;
+  background-color: #262828;
+  color: white;
+  border-radius: 10px;
+  font-size: 22px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  background: url("./selectArrow.svg") 96%/15% no-repeat;
+}
+
+.style_select {
+  display: block;
+  height: 47px;
+  padding-left: 10px;
+  background-color: #262828;
+  color: white;
+  border-radius: 10px;
+  font-size: 22px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=MultiSelect.module.css.map */

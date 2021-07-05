@@ -1,0 +1,165 @@
+@import "../../../styles/variables";
+@import "../../../styles/mixins";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Spectral&display=swap');
+
+.masterBlock {
+  width: 1110px;
+  height: 290px;
+  background-color: #262828;
+  border-radius: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 35px;
+  display: grid;
+  grid-template-columns: 2fr  6fr;
+  grid-template-rows: repeat(5, 20%);
+  grid-column-gap: 10px;
+
+
+}
+
+.avatar_block {
+  width: 240px;
+  height: 258px;
+  grid-area: avatar;
+  align-self: stretch;
+  grid-column: 1;
+  grid-row: 1/-1;
+  justify-self: center;
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 13px;
+}
+
+.avatar {
+  width: 240px;
+  height: 258px;
+  border-radius: 120px;
+  grid-column-gap: 15px;
+  align-self: stretch;
+  //grid-column: 1;
+  //grid-row: 1/-1;
+  //justify-self: center;
+  //align-self: center;
+}
+
+.blockInfo {
+  width: 810px;
+  height: 250px;
+  grid-template-rows: 1fr 1fr 1fr 2.5fr;
+  display: grid;
+  grid-area: info;
+  grid-row: 1/4;
+  grid-column: 2;
+  grid-row-gap: 15px;
+}
+
+.nameTown {
+  margin-top: 20px;
+  grid-row: 1;
+
+  .name{
+    @include font_info_2;
+    display: inline-block;
+    float: left;
+    color: #FFFFFF;
+  }
+  .town{
+
+    display: inline-block;
+    float: right;
+    color: #FFFFFF;
+    font-size: 18px;
+
+    .townPicker{
+      padding-right: 8px;
+    }
+  }
+}
+
+.expPrice {
+  grid-row: 2;
+  @include font_info_1;
+
+  .experience{
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-right: 26px;
+    display: inline-block;
+  }
+  .price{
+    color: #FFFFFF;
+    font-size: 18px;
+    display: inline-block;
+  }
+}
+
+.styles {
+  grid-row: 3;
+
+  p{
+    text-align: center;
+    margin: 6px 0 0 0;
+    white-space: nowrap;
+    font-size: 18px;
+
+  }
+
+  }
+
+  .firstStyle{
+    @include master-style;
+    width: 150px;
+
+  }
+
+  .secondStyle{
+    @include master-style;
+    width: 108px;
+
+
+  }
+  .thirdStyle{
+    @include master-style;
+    width: 111px;
+
+  }
+  .fourthStyle{
+
+    @include master-style;
+    display: inline-block;
+    width: 138px;}
+
+  .emptyStyle{
+    @include master-style;
+    width: 59px;
+  }
+
+
+
+
+.portfolio {
+  grid-row: 4;
+
+  .firstPic{
+    @include photo-style
+
+  }
+  .secondPic{
+    @include photo-style
+
+  }
+  .thirdPic{
+    @include photo-style
+
+  }
+  .fourthPic{
+    @include photo-style
+
+  }
+  .fifthPic{
+    @include photo-style
+
+  }
+
+}

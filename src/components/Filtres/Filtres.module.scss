@@ -1,0 +1,43 @@
+@import "../../styles/variables";
+
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+
+.filtress{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 5fr;
+    grid-template-areas:
+    ". town style experience price ";
+    grid-column-gap: 10px;
+    margin-bottom: 35px;
+
+}
+
+.town {
+    grid-area: town;
+    background-color: $main-color;
+    border-radius: 10px;
+
+
+}
+
+
+.styles{
+    grid-area: style;
+    background-color: $main-color;
+    border-radius: 10px;
+}
+
+.price{
+    grid-area: price;
+    background-color: $main-color;
+    border-radius: 10px;
+}
+
+.experience{
+    grid-area: experience;
+    background-color: $main-color;
+    border-radius: 10px;
+}
+.button{
+    align: center;
+}

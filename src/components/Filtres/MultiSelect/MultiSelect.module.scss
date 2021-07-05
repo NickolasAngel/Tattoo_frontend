@@ -1,0 +1,17 @@
+@import "../../../styles/mixins";
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+
+.filter_select{
+  border: none;
+  width: 125px;
+  @include filter-block;
+  @include font_filter;
+
+  background: url("./selectArrow.svg") 96% / 15% no-repeat;
+}
+.style_select{
+  @include filter-block;
+  @include font_filter;
+
+}
+
